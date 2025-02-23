@@ -5,7 +5,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Best Coffeshops</title>
-
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
     <style>
       *{
         border: 1px red dashed;
@@ -41,8 +41,37 @@
         border-radius: 48px;
       }
 
+      .main-container {
+        max-width: 640px;
+        margin: auto;
+      }
+
+      .image {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .name {
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+      .icons {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+      }
+
       .links {
         background-color: rgba(170, 227, 210, 0.5);
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+      }
+
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
       }
     </style>
   </head>
@@ -78,7 +107,7 @@
         
         <img class="thumbnail" src="/images/bun.jpg" alt="cinnamon-roll">
 
-        <a href="https://www.lostlarson.com/" target="_blank">
+        <a class="link-text" href="https://www.lostlarson.com/" target="_blank">
           Lost Larson/Andersonville
         </a>
 
@@ -88,7 +117,7 @@
 
         <img class="thumbnail" src="/images/plant.jpg" alt="leaf">
 
-        <a href="https://www.instagram.com/solowaycoffee/" target="_blank">
+        <a class="link-text" href="https://www.instagram.com/solowaycoffee/" target="_blank">
           Soloway Coffe/Lincoln Park
         </a>
 
@@ -96,14 +125,14 @@
 
       <div class="links">
         <img class="thumbnail" src="/images/bread.jpg" alt="loaf">
-        <a href="https://www.sauceandbread.com/menu" target="_blank">
+        <a class="link-text" href="https://www.sauceandbread.com/menu" target="_blank">
           Sauce and Bread Kitchen/Devon
         </a>
       </div>
 
       <div class="links">
         <img class="thumbnail" src="/images/moon.jpg" alt="black-moon">
-        <a href="https://loavesandwitches.com/" target="_blank">
+        <a class="link-text" href="https://loavesandwitches.com/" target="_blank">
           Loaves and Witches/Edgewater
         </a>
       </div>
